@@ -1,0 +1,6 @@
+version: '2.1'
+services:
+  al2perl:
+    build: ./
+    container_name: "test-perl-build-carton"
+    entrypoint: tail -f /dev/null
